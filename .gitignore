@@ -1,0 +1,37 @@
+# Laravel & PHP general
+/vendor/
+.env
+.env.*
+.phpunit.result.cache
+.phpactor.json
+Homestead.*
+auth.json
+
+# Node & frontend
+/node_modules/
+npm-debug.log
+yarn-error.log
+/public/hot
+/public/build
+/public/storage
+
+# Laravel storage
+/storage/*.key
+/storage/*.log
+/storage/*.txt
+/storage/framework/
+storage/logs/
+/storage/pail
+
+# Debugbar
+/storage/debugbar/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/.nova/
+/.fleet/
+/.zed/
+
+# Laravel bootstrap cache
+/bootstrap/cache/
