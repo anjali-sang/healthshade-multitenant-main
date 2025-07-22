@@ -1,4 +1,4 @@
-<div class="px-4 sm:px-6 lg:px-8">
+<div class=" px-1 lg:px-4 sm:px-6 lg:px-8">
     <section class="w-full border-b-2 pb-4 mb-6">
         <header class="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-4 md:gap-6">
             <!-- Heading and description -->

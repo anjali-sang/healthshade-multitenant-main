@@ -1,6 +1,6 @@
 <x-app-layout>
   <!-- Navigation Tabs -->
-  <div class="p-4">
+  <div class="px-1 lg:px-4 pt-4 lg:pt-8">
     <div class="bg-white p-4 dark:bg-gray-800 shadow sm:rounded-lg">
       <!-- <div class="border-b border-gray-200 dark:border-gray-700">
         <nav class="flex space-x-8" aria-label="Catalog Navigation">

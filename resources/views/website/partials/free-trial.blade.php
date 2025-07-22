@@ -9,7 +9,7 @@
         </h1>
 
         <div class="sub-text py-4 px-24 text-lg text-center max-md:px-3 max-md:text-sm">
-            It's time to take control of your Inventory. Get Healthshade <br class="max-md:hidden">software and see how
+            It's time to take control of your Inventory. Get Inventra <br class="max-md:hidden">software and see how
             things get productive.
         </div>
 

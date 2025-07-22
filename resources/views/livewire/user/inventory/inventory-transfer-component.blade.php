@@ -1,5 +1,5 @@
-<div class="max-w-10xl mx-auto px-4">
-    <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg mb-5">
+<div class="max-w-10xl mx-auto px-1 lg:px-4 pt-4 lg:pt-12">
+    <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow rounded-lg mb-5">
         <section class="w-full border-b-2 pb-4 mb-6">
             <header class="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-3">
                 <div>

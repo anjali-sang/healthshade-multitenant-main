@@ -159,7 +159,7 @@
         Streamline Your Clinic's Inventory Management <br> with a Robust Solution for Optimized <br>Supply Control.
     </div>
     <div class="flex flex-col items-center justify-center mb-3 mt-6">
-        <button class="free-trial-button"><a href="{{url('register')}}">Try Healthshade for
+        <button class="free-trial-button"><a href="{{url('register')}}">Try Inventrafor
                 free</a><span class="arrow">&rarr;</span></button>
         <p class="sign-easily text-xs">No credit card required. Sign up now !</p>
     </div>

@@ -1,8 +1,8 @@
 <div>
     <div class="py-4">
-        <div class="max-w-10xl mx-auto px-4">
-            <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg mb-5">
-                <section class="w-full border-b-2 pb-4 mb-6 flex justify-center items-center">
+        <div class="max-w-10xl mx-auto px-1 lg:px-4">
+            <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow rounded-lg mb-5">
+                <section class="w-full border-b-2 pb-4 mb-6 flex flex-col md:flex-row justify-center items-center gap-4">
                     <header class="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-3">
                         <div>
                             <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">
@@ -13,7 +13,7 @@
                             </p>
                         </div>
                     </header>
-                    <div class="flex justify-between items-center gap-3">
+                    <div class="flex justify-center md:justify-end items-center gap-3 w-full">
                         <x-primary-button class="min-w-36 flex justify-center items-center" x-data="{ loading: false }"
                             x-on:click="loading = true; setTimeout(() => { $dispatch('open-modal', 'add-role-modal'); loading = false }, 1000)"
                             x-bind:disabled="loading">

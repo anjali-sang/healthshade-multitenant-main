@@ -1,9 +1,9 @@
 <div>
     <div>
         @if (!$viewPurchaseOrder)
-            <div class="py-1">
+            <div class="pb-1 pt-4 lg:pt-8 px-1 lg:px-4">
                 <div class="max-w-5xl mx-auto">
-                    <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg mb-3">
+                    <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow-sm rounded-md mb-3">
                         <section class="w-full">
                             <header
                                 class="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-3">
@@ -68,7 +68,7 @@
             <div>
                 {{-- <livewire:user.purchase.purchase-order-list-component /> --}}
             </div>
-            <div>
+            <div class="px-1 lg:px-4">
                 <div class="max-w-5xl mx-auto">
                     @if ($purchaseOrderList->count() > 0)
                         @foreach($purchaseOrderList->sortByDesc('created_at') as $order)

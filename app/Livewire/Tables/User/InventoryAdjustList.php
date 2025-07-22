@@ -51,7 +51,7 @@ final class InventoryAdjustList extends PowerGridComponent
             ->showPerPage(50)
                 ->showRecordCount(),
             PowerGrid::responsive()
-                ->fixedColumns(),
+                ->fixedColumns('product_name'),
         ];
     }
 

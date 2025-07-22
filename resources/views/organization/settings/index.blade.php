@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="max-w-4xl mx-auto px-4 py-4">
+    <div class="max-w-4xl mx-auto px-1 lg:px-4 py-4">
         <!-- Header Section -->
         <div class="p-2 sm:p-6 bg-white dark:bg-gray-800 shadow-md rounded-lg mb-6">
             <section class="w-full">

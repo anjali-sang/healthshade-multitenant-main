@@ -1,5 +1,5 @@
 
-<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
+<div class="mx-auto max-w-screen-xl px-1 2xl:px-0  pt-0 lg:pt-28">
     <div class="flex flex-col sm:flex-row justify-between gap-4 mt-3">
         <div href="#"
             class="flex-1 items-stretch p-4 sm:p-6 bg-white border border-gray-200 rounded-lg shadow-sm  

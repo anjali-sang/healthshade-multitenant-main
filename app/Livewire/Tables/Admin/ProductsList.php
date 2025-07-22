@@ -50,7 +50,7 @@ final class ProductsList extends PowerGridComponent
                 ->showRecordCount(),
 
             PowerGrid::responsive()
-        ->fixedColumns(),
+        ->fixedColumns('product_name','Action'),
         ];
     }
 

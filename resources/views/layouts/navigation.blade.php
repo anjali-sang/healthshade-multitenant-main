@@ -125,7 +125,7 @@
             <div class="px-4 space-y-4">
                 <x-responsive-nav-link :href="route('profile.edit')">
                     <div class="flex items-center content-start gap-3">
-                        <div>
+                        <div class="shrink-0">
                             <img src="{{ asset('avatars/' . Auth::user()->avatar) }}"
                                 class="w-10 h-10 rounded-full border-2 border-transparent peer-checked:border-blue-500 cursor-pointer"
                                 alt="Avatar">

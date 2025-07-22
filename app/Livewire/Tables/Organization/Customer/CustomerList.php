@@ -27,7 +27,7 @@ final class CustomerList extends PowerGridComponent
                 ->showPerPage()
                 ->showRecordCount(),
             PowerGrid::responsive()
-                ->fixedColumns(),
+                ->fixedColumns('customer_name','Action'),
         ];
     }
 

@@ -20,7 +20,7 @@
         "openspout/openspout": "^4.29",
         "phpseclib/phpseclib": "^3.0",
         "picqer/php-barcode-generator": "^3.2",
-        "power-components/livewire-powergrid": "^6.1"
+        "power-components/livewire-powergrid": "^6.4"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.15",

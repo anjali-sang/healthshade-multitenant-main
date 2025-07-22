@@ -53,7 +53,8 @@ final class PickingInventoryList extends PowerGridComponent
             PowerGrid::footer()
                 ->showPerPage(50)
                 ->showRecordCount(),
-            PowerGrid::responsive()->fixedColumns(),
+            PowerGrid::responsive()
+            ->fixedColumns('product_name','Action'),
         ];
     }
 

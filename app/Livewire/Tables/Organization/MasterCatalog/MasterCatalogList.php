@@ -42,10 +42,10 @@ final class MasterCatalogList extends PowerGridComponent
                 ->showPerPage(50)
                 ->showRecordCount(),
 
-            // PowerGrid::responsive()
-            //     ->fixedColumns('product_name', 'product_code', 'actions'),
             PowerGrid::responsive()
-                ->fixedColumns(),
+                ->fixedColumns('product_name','Action'),
+            // PowerGrid::responsive()
+            //     ->fixedColumns(),
 
         ];
     }

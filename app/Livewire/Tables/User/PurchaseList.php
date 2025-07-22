@@ -40,7 +40,7 @@ final class PurchaseList extends PowerGridComponent
                 ->showPerPage(50)
                 ->showRecordCount(),
             PowerGrid::responsive()
-                ->fixedColumns(),
+                ->fixedColumns('purchase_oder_number','Action'),
         ];
     }
 

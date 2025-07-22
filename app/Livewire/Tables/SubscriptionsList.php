@@ -44,7 +44,7 @@ final class SubscriptionsList extends PowerGridComponent
             PowerGrid::footer()
             ->showPerPage(50)
                 ->showRecordCount(),
-            PowerGrid::responsive()->fixedColumns(),
+            PowerGrid::responsive()->fixedColumns('name','Action'),
         ];
     }
 

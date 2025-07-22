@@ -191,7 +191,7 @@
         </div>
 
         <div class="footer">
-            <p><strong>HealthShade Support Team</strong></p>
+            <p><strong>Inventra Support Team</strong></p>
             <p>Email: support@healthshade.com</p>
             <p style="font-size: 12px; color: #999;">
                 This email was sent automatically by the Purchase Order Management System.<br>

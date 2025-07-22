@@ -48,7 +48,7 @@ final class BatchPickingList extends PowerGridComponent
             PowerGrid::footer()
                 ->showPerPage(50)
                 ->showRecordCount(),
-            PowerGrid::responsive(),
+            PowerGrid::responsive()->fixedColumns('product_name','Action'),
         ];
     }
 

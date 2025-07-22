@@ -1,6 +1,6 @@
 <div>
-    <div class="sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg w-full space-y-6 mb-6">
-        <div class=" bg-white dark:bg-gray-800 sm:rounded-lg">
+    <div class="sm:p-8 bg-white dark:bg-gray-800 shadow rounded-lg w-full space-y-6 mb-6">
+        <div class=" bg-white dark:bg-gray-800 rounded-lg p-4">
             <section class="w-full">
                 <header class="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-3">
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Healthshade') }}</title>
+    <title>{{ config('app.name', 'Inventra') }}</title>
     <link rel="icon" href="{{ url('icon.PNG') }}" type="image/x-icon">
 
     <!-- Fonts -->
@@ -42,7 +42,7 @@
             @include('layouts.user-side-navigation')
         @endif
         <!-- flash -->
-        <main class="md:ml-20 pt-28 p-3">
+        <main class="md:ml-20 pt-16 lg:pt-28">
             @if (session('error'))
                 <div id="error-alert" class="bg-red-500 text-white p-4 rounded mb-4">
                     {{ session('error') }}

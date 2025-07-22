@@ -1,8 +1,8 @@
 <x-app-layout>
     @if ($currentSubscription['name'] != 'NA')
-        <div class="max-w-screen-md mx-auto mb-12">
+        <div class="max-w-screen-md mx-auto mb-12 pt-4 lg:pt-12 px-1 lg:px-4">
             <div
-                class="relative flex flex-col p-6 bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg overflow-hidden">
+                class="relative flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg overflow-hidden">
                 <!-- Responsive Badge + Heading -->
                 <div class="text-center flex flex-col md:block md:relative">
                     <!-- Badge (mobile view) -->
@@ -65,7 +65,7 @@
         </div>
     @endif
     <!-- Header with better spacing and typography -->
-    <div class="mx-auto max-w-screen-md text-center mb-12">
+    <div class="mx-auto w-full max-w-md text-center mb-12 pt-8 lg:pt-12 px-1 sm:px-6 lg:px-4">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-4">
             Find the right plan for you
         </h2>
@@ -74,7 +74,7 @@
         </p>
 
         <!-- Filter toggle -->
-        <div class="inline-flex bg-gray-100 dark:bg-gray-800 p-1 rounded-xl shadow-inner mb-8">
+        <div class="grid grid-cols-2 gap-2 sm:grid-cols-4 bg-gray-100 dark:bg-gray-800 p-1 rounded-xl shadow-inner mb-8">
             @foreach ([0 => 'All Plans', 3 => 'Quarterly', 6 => 'Semi-Annual', 12 => 'Annual'] as $value => $label)
                 <button type="button" data-duration="{{ $value }}"
                     id="filter-{{ strtolower(str_replace(' ', '-', $label)) }}"
@@ -87,7 +87,7 @@
     </div>
 
     <!-- Subscription cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto pt-8 lg:pt-12 px-1 lg:px-4">
         @forelse ($subscriptions as $subscription)
             <div id="subscription-{{ $subscription->id }}" data-duration="{{ $subscription->duration }}"
                 data-subscription="{{ json_encode($subscription) }}"

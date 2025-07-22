@@ -28,7 +28,7 @@ final class OrganizationList extends PowerGridComponent
     }
     public function setUp(): array
     {
-        $this->showCheckBox();
+        // $this->showCheckBox();
 
         return [
             PowerGrid::exportable('export')
@@ -43,7 +43,7 @@ final class OrganizationList extends PowerGridComponent
             PowerGrid::footer()
                 ->showPerPage()
                 ->showRecordCount(),
-            PowerGrid::responsive()->fixedColumns(),
+            PowerGrid::responsive()->fixedColumns('name','Action'),
         ];
     }
 

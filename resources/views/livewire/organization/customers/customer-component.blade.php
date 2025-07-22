@@ -1,4 +1,4 @@
-<div class="p-6">
+<div class="p-6 px-1 lg:px-4 pt-4 lg:pt-12">
     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm">
         <!-- Header -->
         <div

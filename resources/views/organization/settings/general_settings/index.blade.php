@@ -1,7 +1,7 @@
 <x-app-layout>
     <livewire:organization.edit-org-component />
 
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+    <div class="max-w-4xl mx-auto px-1 sm:px-6 lg:px-8  py-0 lg:py-6 space-y-6">
 
         <!-- General Settings Card -->
         <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700">

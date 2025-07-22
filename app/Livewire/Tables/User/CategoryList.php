@@ -46,7 +46,7 @@ final class CategoryList extends PowerGridComponent
             ->showPerPage(50)
                 ->showRecordCount(),
             PowerGrid::responsive()
-            ->fixedColumns(),
+            ->fixedColumns('category_name', 'Action'),
         ];
     }
     public function detailView($row): string

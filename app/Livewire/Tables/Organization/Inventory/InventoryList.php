@@ -63,7 +63,7 @@ final class InventoryList extends PowerGridComponent
                 ->showRecordCount(),
 
             PowerGrid::responsive()
-                ->fixedColumns(),
+                 ->fixedColumns('product_name','Action'),
         ];
     }
 

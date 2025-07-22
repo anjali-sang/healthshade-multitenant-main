@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="p-5">
+    <div class="px-1 lg:px-4 pt-4 lg:pt-8">
         <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden">
             <!-- Tab Navigation - Improved spacing and visual feedback -->
             <div class="dark:border-gray-700 px-6 py-4">
