@@ -1,6 +1,6 @@
 import './bootstrap';
-// import './../../vendor/power-components/livewire-powergrid/dist/powergrid'
-// import './../../vendor/power-components/livewire-powergrid/dist/tailwind.css'
+import './../../vendor/power-components/livewire-powergrid/dist/powergrid'
+import './../../vendor/power-components/livewire-powergrid/dist/tailwind.css'
 import jQuery from 'jquery';
 import flatpickr from "flatpickr"; 
 window.$ = jQuery;
